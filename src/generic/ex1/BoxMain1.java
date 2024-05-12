@@ -1,7 +1,7 @@
-package genegic;
+package generic.ex1;
 
-import genegic.ex1.IntegerBox;
-import genegic.ex1.StringBox;
+import generic.ex1.IntegerBox;
+import generic.ex1.StringBox;
 
 public class BoxMain1 {
     

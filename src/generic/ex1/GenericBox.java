@@ -1,4 +1,4 @@
-package genegic.ex1;
+package generic.ex1;
 
 /**
  *  <> 를 사용한 클래스를 제너릭 클래스라 한다

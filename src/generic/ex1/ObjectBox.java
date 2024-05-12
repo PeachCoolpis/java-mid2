@@ -1,4 +1,4 @@
-package genegic.ex1;
+package generic.ex1;
 // 오브젝트 박스 ㅇㅇ
 public class ObjectBox {
     private Object value;
