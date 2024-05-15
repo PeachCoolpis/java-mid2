@@ -18,7 +18,14 @@ public class WildcardMain1 {
         
         WildcardEx.printWildcardV1(dogBox); // 와일드 카드
         WildcardEx.printWildV2(dogBox);
+        
+        
         Animal animal = WildcardEx.printAndReturnWildcard(dogBox);
+        
+        catBox.set(new Cat("야옹이",200));
+        WildcardEx.printAndReturnGeneric(catBox);
+        
+        
         
     }
     
