@@ -25,6 +25,36 @@ public class Node {
         sb.append("]");
         return sb.toString();
     }
+    
+    public static void printAll(Node node) {
+        Node x = node;
+        while (x != null) {
+            System.out.println(x.item);
+            x = x.next;
+        }
+    }
+    
+    public static Node getLastNode(Node node) {
+        Node x = node;
+        while (x.next != null) {
+            x = x.next;
+        }
+        return x;
+    }
+    
+    public static Node getNode(Node node, int index) {
+        Node x = node;
+        for (int i = 0; i < index; i++) {
+            x = x.next;
+        }
+        return x;
+    }
+    
+    public static void add(Node node, String value) {
+        Node lastNode = getLastNode(node);
+        lastNode.next = new Node(value);
+    }
+    
     // Ide 생성 toString
 //    @Override
 //    public String toString() {
