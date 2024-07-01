@@ -14,7 +14,7 @@ public class MethodMain3 {
         
         Cat returnCat = hospital.printAndReturn(cat); // 제네릭 메서드는 cat으로 바뀜
         System.out.println("returnCat = " + returnCat);
-        
-        //제네릭 클래스 보다 제네릭 클래스가 더 큰 우선순위 를 가진다.
+        System.out.println("hospital = " + hospital);
+        //제네릭 메서드 보다 제네릭 클래스가 더 큰 우선순위 를 가진다.
     }
 }
