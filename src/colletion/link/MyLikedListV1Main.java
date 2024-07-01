@@ -1,8 +1,5 @@
 package colletion.link;
 
-import colletion.array.MyArrayListV1;
-
-
 public class MyLikedListV1Main {
     public static void main(String[] args) {
         MyLinkedListV1 list = new MyLinkedListV1();
