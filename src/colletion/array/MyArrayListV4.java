@@ -93,7 +93,7 @@ public class MyArrayListV4<E> {
         return oldValue;
     }
     
-    public int indexOf(Object o) {
+    public int indexOf(E o) {
         if (o == null) {
             return -1;
         }
