@@ -1,8 +1,5 @@
 package colletion.set;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 public class StringHashMain {
     static int CAPACITY = 10;
     
