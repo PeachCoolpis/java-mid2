@@ -9,5 +9,11 @@ public class MyArrMain {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        
+        //추가
+        System.out.println("for-each 사용");
+        for (Integer value : myArray) {
+            System.out.println("value = " + value);
+        }
     }
 }
